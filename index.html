@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/LOGO.jpg">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Fonoaudiólogo Manuel Ibarra</title>
+    <nav class="navbar">
+        <img src="./assets/img/BANNER.jpg" alt="LOGO" class="logo-navbar">
+        <ul class="nav-list">
+            <li><a href="#inicio">Presentación</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#experience">Experiencia</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+</nav>
+</head>
+<body>
+    <header class="presentation" id="inicio">
+        <div class="presentation-text">
+            <h1>¡Hola!</h1> 
+            <em><h1>Soy Manuel</h1></em> 
+            <p>Especialista en lenguaje, habla, comunicación y audición en la ciudad de XXXXXX y comunas cercanas.</p>
+        </div>
+        <img src="./assets/img/Manuel Ibarra.jpg" alt="Imagen de Manuel" class="perfil-image">
+    </header>
+
+    <section class="about" id="sobre-mi">
+        <div class="about-text">
+            <p>Soy Fonoaudiólogo con 4 años experiencia en educación y salud familiar, comunitaria e intercultural,
+                centrado en evaluación, diagnóstico e intervención en áreas de lenguaje y habla, principalmente de población infanto-juvenil.
+                Tambien he abordado el área de audición, ahondando en la educacion, prevención y promoción de la salud auditiva.
+                He trabajado en el ámbito educativo y de salud, por lo que tengo una sólida comprensión de las necesidades de los usuarios y sus contextos.
+            </p>
+            <p>Mi enfoque es siempre centrado en el usuario, buscando soluciones que mejoren su calidad de vida y fomenten su desarrollo integral.</p>
+        </div>
+    </section>
+
+    <section  id="experience">
+        <h2>Aquí puedes ver un poco de mi experiencia</h2>
+        <ul class="experience-list">
+            <li>Estimulación temprana</li>
+            <li>Abordaje de necesidades educativas especiales en contexto educativo</li>
+            <li>Evaluación ADOS-2 y ADI-R</li>
+            <li>Otoscopía y lavado de oídos</li>
+            <li>Intervención en deglución</li>
+            <li>Intervención en lenguaje y habla</li>
+
+        </ul>
+    </section>
+
+    <section class="contact" id="contacto">
+        <div class="contact-text">
+            <h2>¿Necesitas atención?</h2>
+            <h3>Registra tus datos en el formulario</h3>
+        </div>
+        <div class="contact-form">
+            <form action="#" method="GET">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre completo" required>
+                <input type="number" name="edad" id="edad" placeholder="Edad" required>
+                <label for="f_nacimiento"></label>
+                <input type="date" name="f_nacimiento" id="f_nacimiento">
+                <input type="text" name="telefono" id="telefono" placeholder="Telefono" required>
+                <textarea name="sinopsis" id="sinopsis" placeholder="Breve descripción de lo que sucede" cols="10" rows="10"></textarea>
+                
+                <button type="reset" onclick="alert('Mensaje enviado, se le responderá a la brevedad...')">Enviar consulta</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>Puedes encontrarme en mis redes sociales
+            <li class="social-links"><a href="https://www.linkedin.com/in/manuel-ibarra-3b0b1b1b2/" target="_blank">
+                <img src="./assets/img/logo-linkedin.avif" alt="Logo LinkedIn"></a>
+            </li>
+        </p>
+    </footer>
+</body>
+</html>
